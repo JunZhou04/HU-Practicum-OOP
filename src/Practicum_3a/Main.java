@@ -1,4 +1,4 @@
-package Practicum_2b;
+package Practicum_3a;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,4 +18,3 @@ public class Main {
         System.out.println(feij);
     }
 }
-
