@@ -18,3 +18,4 @@ public class Main {
         System.out.println("BEREKENDE INHOUD: " + z2.inhoud());
     }
 }
+Í
