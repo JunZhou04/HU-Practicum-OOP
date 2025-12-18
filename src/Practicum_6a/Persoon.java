@@ -91,6 +91,7 @@ public class Persoon {
             mijnGamesList.append(g.toString());
         }
 
+        // result
         return String.format(
                 "%s heeft een budget van €%.2f en bezit de volgende games:%s",
                 this.naam,
