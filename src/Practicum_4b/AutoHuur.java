@@ -12,7 +12,11 @@ public class AutoHuur {
     }
 
     public void setAantalDagen(int aD) {
-        this.aantalDagen = aD;
+        if (aD < 0) {
+            this.aantalDagen = 0;
+        } else {
+            this.aantalDagen = aD;
+        }
     }
 
     public int getAantalDagen() {
